@@ -10,29 +10,14 @@ public class HWProgram14 {
         int randomNum = random.nextInt(100_000) + 11;
         System.out.println(randomNum);
         int sum = 0;
-
+        int count =0;
         for (int i = 0; i < 6; i++) {
             int partNumber = randomNum%10;
             randomNum /= 10;
             sum += partNumber ;
+            count ++;
         }
         System.out.println("Сума числа" + ": " + sum);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
